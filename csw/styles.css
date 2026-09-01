@@ -1,0 +1,42 @@
+body{
+    background-color:white;
+
+}
+
+
+h1 {
+    color:brown;
+    text-align: left;
+}
+
+
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: chocolate;
+    width:200px;
+    height: 120px;
+    padding: 20px;
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+table,td,th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+ul li {
+    color: aqua;
+}
+
+a[href="form.html"]{
+    color: red;
+}
+
+button:hover {
+    background-color: green;
+}
